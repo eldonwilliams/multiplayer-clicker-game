@@ -12,7 +12,7 @@ const app = express();
 const httpServer = http.createServer(app);
 const io = new Server(httpServer, {
     cors: {
-        origin: ['https://localhost'],
+        origin: ['https://localhost:443'],
         methods: ["GET", "POST"],
         credentials: true,
     },
