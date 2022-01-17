@@ -3,7 +3,6 @@ import useSocket from "./hooks/useSocket";
 
 const App = () => {
   const [socket, isSafe, runSafe, connected] = useSocket({
-    url: "http://localhost:80/",
     options: {
       autoConnect: true,
       withCredentials: true,
