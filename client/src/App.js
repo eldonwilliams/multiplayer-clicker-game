@@ -3,7 +3,7 @@ import useSocket from "./hooks/useSocket";
 
 const App = () => {
   const [socket, isSafe, runSafe, connected] = useSocket({
-    url: 'https://eldonwilliams.com/api',
+    url: 'https://eldonwilliams.com/api:4000',
     options: {
       autoConnect: true,
       withCredentials: true,
