@@ -7,6 +7,7 @@ const App = () => {
     options: {
       autoConnect: true,
       withCredentials: true,
+      path: '/api/socket.io'
     }
   });
 
